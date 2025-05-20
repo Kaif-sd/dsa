@@ -1,4 +1,4 @@
-package Arrays.Reverse_String_Using_Recursion;
+package String.Reverse_String_Using_Recursion;
 
 public class ReverseStringUsingRecursion {
     
