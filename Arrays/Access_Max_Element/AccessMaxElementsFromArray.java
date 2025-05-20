@@ -4,11 +4,11 @@ class AccessMaxElementsFromArray {
 
     public static int MaxElementFromArray(int array []){
         if(array == null){
-            return 0;
+            throw new IllegalArgumentException("Array should not be empty");
         }
-        
+
         int maxElement = array[0];
-        for(int i=0; i<array.length; i++){
+        for(int i=1; i<array.length; i++){
             if(maxElement < array[i]){
                 maxElement = array[i];
             }
