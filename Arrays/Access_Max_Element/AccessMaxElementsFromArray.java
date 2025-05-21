@@ -17,7 +17,7 @@ class AccessMaxElementsFromArray {
     }
 
     public static void main(String[] args) {
-        int array [] = {1,5,9,2,7,3,1,7,4};
+        int array [] = {};
         int maxElement = MaxElementFromArray(array);
         System.out.println(maxElement);
     }
