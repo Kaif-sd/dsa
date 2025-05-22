@@ -1,5 +1,3 @@
-package Arrays.Min_in_Rotated_Sorted_Array;
-
 public class Min_in_Rotated_Sorted_Array {
 
     public static int findMininRotatedArray(int array[]){
@@ -22,10 +20,14 @@ public class Min_in_Rotated_Sorted_Array {
 
     public static void main(String[] args) {
         int array[] = {3,4,5,1,2} ;
-        System.out.println("hii");
         System.out.println(findMininRotatedArray(array));
     }
 }
+// output :-
+// 2 0 4
+// 3 3 4
+// 1
+
 
 //Explaination :-
 
