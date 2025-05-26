@@ -1,4 +1,4 @@
-package String.Reverse_String_Using_Stack;
+package Strings.Reverse_String_Using_Stack;
 
 import java.util.Stack;
 

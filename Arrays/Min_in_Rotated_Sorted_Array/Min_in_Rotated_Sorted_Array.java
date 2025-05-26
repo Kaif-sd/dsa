@@ -1,9 +1,10 @@
+
 public class Min_in_Rotated_Sorted_Array {
 
     public static int findMininRotatedArray(int array[]){
-
         int left = 0, right = array.length-1;
         int mid=0;
+
         while (left < right) {
             mid = (left + right) /2;
             System.out.println(mid +" "+ left+" "+right);
@@ -13,8 +14,8 @@ public class Min_in_Rotated_Sorted_Array {
             else {
                 right = mid;
             }
+        }    
 
-        } 
         return array[left];
     }
 
@@ -23,6 +24,7 @@ public class Min_in_Rotated_Sorted_Array {
         System.out.println(findMininRotatedArray(array));
     }
 }
+
 // output :-
 // 2 0 4
 // 3 3 4

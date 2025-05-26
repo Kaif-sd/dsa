@@ -1,0 +1,133 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AccessMaxElementsFromArray",
+            "request": "launch",
+            "mainClass": "Arrays.Access_Max_Element.AccessMaxElementsFromArray",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "Best_Time_to_Buy_and_Sell_Stock",
+            "request": "launch",
+            "mainClass": "Arrays.Best_Time_to_Buy_and_Sell_Stock.Best_Time_to_Buy_and_Sell_Stock",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "Container_With_Most_Water",
+            "request": "launch",
+            "mainClass": "Arrays.Container_With_Most_Water.Container_With_Most_Water",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "Contains_Duplicate",
+            "request": "launch",
+            "mainClass": "Arrays.Contains_Duplicate.Contains_Duplicate",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "Kth_Largest_Element_in_an_Array",
+            "request": "launch",
+            "mainClass": "Arrays.Kth_Largest_Element_in_an_Array.Kth_Largest_Element_in_an_Array",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "Maximum_Product_Subarray",
+            "request": "launch",
+            "mainClass": "Arrays.Maximum_Product_Subarray.Maximum_Product_Subarray",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "Maximum_Subarray",
+            "request": "launch",
+            "mainClass": "Arrays.Maximum_Subarray.Maximum_Subarray",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "Min_in_Rotated_Sorted_Array",
+            "request": "launch",
+            "mainClass": "Arrays.Min_in_Rotated_Sorted_Array.Min_in_Rotated_Sorted_Array",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "Product_of_Array_Except_Self",
+            "request": "launch",
+            "mainClass": "Arrays.Product_of_Array_Except_Self.Product_of_Array_Except_Self",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "Rotate_An_Array",
+            "request": "launch",
+            "mainClass": "Arrays.Rotate_An_Array.Rotate_An_Array",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "Search_in_Rotated_Sorted_Array",
+            "request": "launch",
+            "mainClass": "Arrays.Search_in_Rotated_Sorted_Array.Search_in_Rotated_Sorted_Array",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "TwoSumEqualsNumInArray",
+            "request": "launch",
+            "mainClass": "Arrays.Two_Sum_Pair_with_given_Sum.TwoSumEqualsNumInArray",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "_3_Sum",
+            "request": "launch",
+            "mainClass": "Arrays._3_Sum._3_Sum",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "Set_Matrix_Zeroesb",
+            "request": "launch",
+            "mainClass": "Matrix.Set_Matrix_Zeroes.Set_Matrix_Zeroesb",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "ReverseStringUsingRecursion",
+            "request": "launch",
+            "mainClass": "Strings.Reverse_String_Using_Recursion.ReverseStringUsingRecursion",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "ReverseStringUsingStack",
+            "request": "launch",
+            "mainClass": "Strings.Reverse_String_Using_Stack.ReverseStringUsingStack",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "Valid_Palindrome",
+            "request": "launch",
+            "mainClass": "Strings.Valid_Palindrome.Valid_Palindrome",
+            "projectName": "dsa_f4af20c4"
+        }
+    ]
+}
