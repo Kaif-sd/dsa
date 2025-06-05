@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Minimum_Window_Substring",
+            "request": "launch",
+            "mainClass": "Strings.Minimum_Window_Substring.Minimum_Window_Substring",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
