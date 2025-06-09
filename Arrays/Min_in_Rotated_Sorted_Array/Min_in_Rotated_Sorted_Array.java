@@ -1,4 +1,5 @@
 
+
 public class Min_in_Rotated_Sorted_Array {
 
     public static int findMininRotatedArray(int array[]){
