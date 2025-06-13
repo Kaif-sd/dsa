@@ -3,31 +3,28 @@ package Pattern.PascalPattern;
 public class PascalPattern {
     
     public static void main(String[] args) {
-        printPattern(20);
+        // printPattern(5);
+        printPascalPattern(5);
     }
 
-    public static void printPattern(int x){
 
-        for (int i = 0; i < x; i++) {
-            
-            for (int s = i; s < x; s++) {
+    public static void printPascalPattern(int num){
+        for (int i = 0; i < num; i++) {
+            for (int j = i; j < num; j++) {
                 System.out.print(" ");
             }
 
-            int num = 1;
-
-            for (int j = 0; j <= i; j++) {
-                System.out.print(num +" ");
-
-                num = num * (i-j) / (j+1);
+            int n =1;
+            for (int j2 = 0; j2 < i + 1; j2++) {
+                System.out.print(n + " ");
+                n = n * (i - j2);
+                n = n  / (j2 + 1);
             }
-
+            
             System.out.println();
         }
     }
-
 }
-
 
 // output :-
 

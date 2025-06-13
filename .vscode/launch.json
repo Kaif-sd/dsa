@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "Algorithms.InsertionSort.InsertionSort",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Miscellaneous.Palindrome.Palindrome",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
+            "name": "Maximum_Depth_of_Binary_Tree",
+            "request": "launch",
+            "mainClass": "Tree.Maximum_Depth_of_Binary_Tree.Maximum_Depth_of_Binary_Tree",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
             "name": "Minimum_Window_Substring",
             "request": "launch",
             "mainClass": "Strings.Minimum_Window_Substring.Minimum_Window_Substring",

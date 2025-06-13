@@ -89,7 +89,6 @@ public class Reorder_List {
 
    
 }
-
 // output:-
 
 // 1
