@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CycleDetectionInGraph",
+            "request": "launch",
+            "mainClass": "Graph.CycleDetectionInGraph.CycleDetectionInGraph",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
             "name": "InsertionSort",
             "request": "launch",
             "mainClass": "Algorithms.InsertionSort.InsertionSort",
