@@ -1,9 +1,7 @@
-package Graph.BridgeInGraph;
+package Graph.BridgeInGraph.UsingTarjansAlgorithm;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class UsingTarjansAlgorithm {
     
@@ -13,14 +11,14 @@ public class UsingTarjansAlgorithm {
         int src;
         int dest;
         int wt;
-        Edge(int src , int dest , int wt){
+        Edge(int src , int dest , int wt) {
             this.src = src;
             this.dest = dest;
             this.wt = wt;
         }
     }
 
-    static class Graph{
+    static class Graph {
         ArrayList<Edge> [] graph = null;
         Graph(int size){
             graph = new ArrayList[size];
@@ -35,7 +33,7 @@ public class UsingTarjansAlgorithm {
         }
     }
     
-    static class Pair{
+    static class Pair {
         int src;
         int dest;
         Pair(int src , int dest){
@@ -75,7 +73,7 @@ public class UsingTarjansAlgorithm {
             temp = temp+1;
 
             for ( Edge e : graph[src]) {
-                if(e.dest == parent){
+                if(e.dest == parent){ 
                     continue;
                 }
                 else if(!visited[e.dest]){
@@ -84,13 +82,13 @@ public class UsingTarjansAlgorithm {
                     if(low[e.dest] > dist[src]){
                         bridgList.add(new Pair(src, e.dest));
                     }
+
                     low[src] = Math.min(low[src] , low[e.dest]);
                 }
                 else if(visited[e.dest]){
-                    low[src] = Math.min( low[src], dist[e.dest]) ;
+                    low[src] = Math.min( low[src], dist[e.dest]) ; // if e.dest is already visited then compare low of src and olow od e.dest then set low of src as min between them 
                 }
             }
-
         return bridgList;
     }
 

@@ -8,7 +8,7 @@ public class BinarySearch {
     public static int search(int [] array , int num){
         int left =0, right = array.length;
 
-        while (left <= right) {
+        while (left < right) {
             int mid =(left + right)/ 2;
             if(array[mid]  == num ){
                  return mid;

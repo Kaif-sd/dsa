@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "DP.Practice",
+            "projectName": "dsa_f4af20c4"
+        },
+        {
+            "type": "java",
             "name": "CycleDetectionInGraph",
             "request": "launch",
             "mainClass": "Graph.CycleDetectionInGraph.CycleDetectionInGraph",

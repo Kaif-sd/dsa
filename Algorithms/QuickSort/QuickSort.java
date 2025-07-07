@@ -21,7 +21,7 @@ public class QuickSort {
             while (i <= end && array[i] <= pivote) {
                 i++;
             }
-
+ 
             while (j >= start && array[j] > pivote) {
                 j--;
             }

@@ -1,4 +1,4 @@
-package Graph.BellmanFordAlgorithm;
+package Graph.BellmanFordAlgorithm.BellmanFordAlgorithm;
 
 import java.util.ArrayList;
 import java.util.List;

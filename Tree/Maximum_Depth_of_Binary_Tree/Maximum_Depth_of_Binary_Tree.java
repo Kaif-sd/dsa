@@ -34,11 +34,11 @@ public class Maximum_Depth_of_Binary_Tree {
 
     public static int inOrder(Node root , int result){
         if(root == null){
-            return 0;
+            return result;
         }
         int leftDepth = inOrder(root.left , result+1);
         int rightDepth = inOrder(root.right , result+1);
-        return 1 + Math.max(leftDepth, rightDepth);
+        return Math.max(leftDepth, rightDepth);
     }
 }
 
